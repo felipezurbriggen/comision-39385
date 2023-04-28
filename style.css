@@ -36,6 +36,36 @@
     transform: scale(1.2);
 }
 
+.redes-sociales{
+    height: 30px;
+    width: 30px;
+}
+
+.tarjetas{
+    height: 30px;
+    width: 50px;
+    margin-top: 5px;
+}
+
+.h4{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.red-social{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 20px;
+}
+
+
 
 
 
