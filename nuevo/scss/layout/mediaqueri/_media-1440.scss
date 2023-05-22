@@ -1,0 +1,7 @@
+@media(max-width:1440px){
+    .section-1{
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        grid-template-rows: repeat(3,auto);
+    }
+}

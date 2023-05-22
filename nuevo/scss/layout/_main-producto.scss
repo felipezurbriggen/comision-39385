@@ -1,0 +1,98 @@
+main{
+    .h2{
+        text-align: center;
+        }
+        .productoss{
+        display: flex;
+        font-family: 'Ubuntu', sans-serif;
+        max-width: 1500px;
+        margin: auto;
+        gap: 30px;
+        margin-bottom: 80px;
+        margin-top: 10px;
+        }
+            .container-img{
+            flex: 1;
+            background-color: white;
+            }
+                .container-info-producto{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                }
+                    .container-precio{
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid #e4e4e4;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    }
+                    .container-precio span{
+                    font-size: 24px;
+                    font-weight: 300;
+                    }
+                        .container-detalles-productos{
+                        padding: 30px 0;
+                        font-size: 18px;
+                        }
+                            .form.grupo{
+                            display: flex;
+                            align-items: center;
+                            gap: 20px;
+                            margin-bottom: 15px;
+                            }
+                            .form.grupo label{
+                            width: 100px;
+                            color: #222;
+                            font-weight: 700;
+                            }
+                                .container-add-card{
+                                display: flex;
+                                gap: 20px;
+                                padding-bottom: 30px;
+                                border-bottom: 1px solid #e4e4e4;
+                            }
+                            div{
+                                .btn-add-to-card{
+                                        border-radius: 5px;
+                                        transition: all 300ms;
+                                        margin-left: 8px;
+                                    }
+                                    .btn-add-to-card:hover{
+                                        transform: scale(1.1);
+                                    }
+                                    .container-button-social{
+                                        display: flex;
+                                        gap: 15px;
+                                        align-items: center;
+                                    }
+                            }
+                            .produc-relacionados{
+                                text-align: center;
+                            }
+                            .icon{
+                                height: 25px;
+                                width: 25px;
+                            }
+                            .card-list-producto{
+                                display: grid;
+                                grid-template-columns: repeat(4, 1fr);
+                                gap: 25px;
+                            }
+                            .card{
+                                cursor: pointer;
+                                margin-left: 20px;
+                                margin-right: 20px;
+                            }
+                            .card img{
+                                width: 100%;
+                            }
+
+
+}
+
+
+
+
+
+

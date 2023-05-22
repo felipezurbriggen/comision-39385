@@ -1,0 +1,11 @@
+@media(max-width:768px){
+    .section-1{
+        display: grid;
+                grid-template-columns: repeat(2,auto);
+                grid-template-rows: repeat(4,auto);
+            }
+            .card-list-producto{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                }
+        }
